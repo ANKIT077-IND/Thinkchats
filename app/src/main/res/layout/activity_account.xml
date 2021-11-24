@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".account">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/account_toolbar"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/mail"
+        android:paddingLeft="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter the email"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/background"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:paddingLeft="20dp"
+        android:background="@drawable/background"
+        android:hint="Enter the Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/name"
+        android:background="@drawable/background"
+        android:paddingLeft="20dp"
+        android:hint="Enter the name"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/mno"
+        android:background="@drawable/background"
+        android:paddingLeft="20dp"
+        android:hint="Enter the Mobile number"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#000"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#46B3E6"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:id="@+id/create"
+        android:layout_marginTop="400dp"/>
+</RelativeLayout>

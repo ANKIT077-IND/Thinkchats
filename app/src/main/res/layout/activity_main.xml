@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#000"
+        android:background="@drawable/background"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="20dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:hint="Enter the Email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:textColorHint="#000"
+        android:inputType="textPassword"
+        android:background="@drawable/background"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/password"
+        android:paddingLeft="20dp"
+        app:passwordToggleEnabled="false"
+        android:hint="Enter the Password"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpassword"
+        android:text="Forgot Password"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="330dp"
+        android:gravity="end"
+        android:layout_marginRight="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:id="@+id/login"
+        android:textSize="18dp"
+        android:textColor="#FFFF"
+        android:background="#46B3E6"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="Create new Account"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:id="@+id/createnewaccount"
+        android:textColor="#FFFF"
+        android:background="#46B3E6"/>
+
+</RelativeLayout>

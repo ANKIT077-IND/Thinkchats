@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373646328758",
+    "project_id": "thinkchats-c34e6",
+    "storage_bucket": "thinkchats-c34e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373646328758:android:5f8568edd4ca23417ef717",
+        "android_client_info": {
+          "package_name": "com.codewithankit.thinkchats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373646328758-ednv8vat4ra510h6ve6e24o7rs14fq6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoa9mn0rg2AJumZoguSstnDfieXsrAjgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373646328758-ednv8vat4ra510h6ve6e24o7rs14fq6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

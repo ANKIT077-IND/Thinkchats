@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#009688"
+    tools:context=".internetcheck">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/checkwifi"
+        android:contentDescription="@string/wifi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/wifi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="@string/oops"
+        android:textSize="25sp"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="@string/no_internet_connection_found"
+        android:textSize="18sp"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="@string/please_check_your_connection"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connect"
+        android:text="@string/ok"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold"
+        android:backgroundTint="#03A9F4"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
